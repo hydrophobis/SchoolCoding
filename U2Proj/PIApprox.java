@@ -1,6 +1,8 @@
+package U2Proj;
+
 import java.util.Scanner;
 
-public class GotPI {
+public class PIApprox {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

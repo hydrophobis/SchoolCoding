@@ -17,7 +17,7 @@ public class Warmup1 {
             System.out.println("Negative num or larger than 100 " + "(" + tries + " tries left): ");
             num = scanner.nextInt();
             tries--;
-        } while(!(number > 0 && number < 101)); // for commit
+        } while(!(number > 0 && number < 101));
     }
     public static void main(String[] args) {
         System.out.println("Odd: ");
