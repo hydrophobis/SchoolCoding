@@ -2,7 +2,7 @@ package U2Proj;
 
 import java.util.Scanner;
 
-public class YearCalendar {
+public class YearCalendar { // O(365) :skull:
     public static final String[] month = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
     public static final String[] week = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
     public static final int[] monthLength = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
